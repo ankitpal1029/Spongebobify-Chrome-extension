@@ -14,7 +14,6 @@ function updateClipboard(newClip) {
 navigator.clipboard.readText().then((text) =>{
 	// console.log(text);
 	arr_text = text.split("");
-	console.log(arr_text);
 	for (let i = 0 ; i< arr_text.length ; i++)
 	{
 		if(i%2 == 0){
@@ -25,5 +24,6 @@ navigator.clipboard.readText().then((text) =>{
 	}
 	final  = arr_text.join("");
 	updateClipboard(final);
+	console.log(final);
 	
 });
