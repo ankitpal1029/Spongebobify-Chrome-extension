@@ -4,7 +4,9 @@ didn't wanna pay for the developer fees hence you gotta put it up yourself
 
 ## Steps to use:
 
-1) copy the text 
-2) click the extension
-3) click convert!
-4) AnD YoU'Re DoNE
+### 1) copy the text 
+![alt text](./images/copy.png)
+### 2) click the extension and convert!
+![alt text](./images/convert.png)
+### 3) AnD YoU'Re DoNE
+![alt text](./images/use.png)
