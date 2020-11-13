@@ -1,8 +1,8 @@
 {
 	"manifest_version":2,
-	"name":"Hello World",
+	"name":"tHiS ApP",
 	"version":"1.0",
-	"description":"A hello world extension!",
+	"description":"mAkE aLl YoUr TeXt LiKe tHiS",
 	"icons": {
 		"128":"./images/128.png",
 		"48":"./images/48.png",
