@@ -1,8 +1,8 @@
-#EXTENSION to make your text like tHiS
+# EXTENSION to make your text like tHiS
 
 didn't wanna pay for the developer fees hence you gotta put it up yourself
 
-##Steps to use:
+## Steps to use:
 
 1) copy the text 
 2) click the extension
