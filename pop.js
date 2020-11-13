@@ -10,20 +10,34 @@ function updateClipboard(newClip) {
     /* clipboard write failed */
   });
 }
+function getClipboard(){
+		
 
-navigator.clipboard.readText().then((text) =>{
-	// console.log(text);
-	arr_text = text.split("");
-	for (let i = 0 ; i< arr_text.length ; i++)
-	{
-		if(i%2 == 0){
-			if(isLetter(arr_text[i])){
-				arr_text[i] = arr_text[i].toUpperCase();
+
+	var t = document.createElement("input");
+	document.body.appendChild(t);
+	t.focus();
+	document.execCommand("paste");
+	var clipboardText = t.value; //this is your clipboard data
+	
+
+
+	arr_text = clipboardText.split("");
+		for (let i = 0 ; i< arr_text.length ; i++)
+		{
+			if(i%2 == 0){
+				if(isLetter(arr_text[i])){
+					arr_text[i] = arr_text[i].toUpperCase();
+				}
 			}
 		}
-	}
-	final  = arr_text.join("");
-	updateClipboard(final);
-	console.log(final);
-	
-});
+		final  = arr_text.join("");
+	updateClipboard(final); 
+	document.body.removeChild(t);
+
+
+}
+document.addEventListener('DOMContentLoaded', function() {
+var gopy = document.getElementById('gopy');
+	gopy.addEventListener('click',getClipboard)
+})
