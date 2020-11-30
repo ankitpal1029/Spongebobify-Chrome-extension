@@ -1,4 +1,4 @@
-# EXTENSION to make your text like tHiS
+# Spongebobify-Chrome-extension
 
 didn't wanna pay for the developer fees hence you gotta put it up yourself
 
